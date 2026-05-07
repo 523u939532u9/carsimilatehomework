@@ -1,5 +1,7 @@
 import carla
+import time
 from module1_spawn import spawn_vehicle
+from module2_cruise import get_speed, cruise_control
 
 def main():
     client = carla.Client('localhost', 2000)
@@ -15,9 +17,14 @@ def main():
     vehicle = None
     try:
         vehicle = spawn_vehicle(world, carla_map)
-        print("✅ 作业1运行成功：车辆生成")
-        for _ in range(100):
+        print("✅ 作业2运行成功：定速巡航")
+        target = 20
+        for _ in range(500):
             world.tick()
+            speed = get_speed(vehicle)
+            ctrl = cruise_control(speed, target)
+            vehicle.apply_control(carla.VehicleControl(**ctrl))
+            time.sleep(0.05)
     finally:
         if vehicle:
             vehicle.destroy()

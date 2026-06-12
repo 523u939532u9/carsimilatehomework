@@ -103,7 +103,7 @@ title: 主页
 [__人形机器人平衡控制__](./humanoid_balance/Humanoid_Balance.md) - 基于强化学习的人形机器人平衡控制仿真
 
 [__工程规范优化__](./improve/project.md) - 多场景仿真与控制优化项目
-
+[__CARLA自动驾驶辅助功能__](./vehicle_autonomous_core/README.md)
 
 # 其他  <span id="other"></span>
 

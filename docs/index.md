@@ -108,6 +108,8 @@ title: 主页
 [__PilotNet自动驾驶系统__](./pilotnet/index.md) - 基于NVIDIA PilotNet架构的端到端自动驾驶学习系统
 
 [__CARLA自动驾驶辅助功能__](./vehicle_autonomous_core/README.md) - 基于 CARLA 的自动驾驶多场景仿真
+[__自动驾驶车道检测与路径规划仿真平台__](./driveSim-enhanced/README.md)
+
 
 [__工程规范优化__](./improve/project.md) - 多场景仿真与控制优化项目
 

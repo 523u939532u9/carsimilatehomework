@@ -109,11 +109,12 @@ title: 主页
 
 [__自动驾驶车道检测与路径规划仿真平台__](./driveSim-enhanced/README.md)
 
-[__车辆自动驾驶辅助功能__](./vehicle_autonomous_core/README.md) - 基于CARLA 的多模块车辆辅助驾驶系统
+
 [__用户使用手势控制 Airsim 无人机__](./drone_hand_gesture/README.md) - 使用手势识别控制 Airsim 无人机飞行
 
 [__V2X路侧智能感知__](./edge_intelligence_V2X/README.md) - 基于YOLOv8n的V2X路侧智能感知系统优化与实现
 
+[__车辆自动驾驶辅助功能__](./vehicle_autonomous_core/README.md) - 基于CARLA 的多模块车辆辅助驾驶系统
 [PID](#pid)
 - [__导航__](#navigation)
 - [__自动驾驶系统__](./auto_drive_system/auto_drive_system_README) - 基于强化学习的自动驾驶系统

@@ -104,7 +104,7 @@ title: 主页
 
 [__工程规范优化__](./improve/project.md) - 多场景仿真与控制优化项目
 
-
+[__车辆自动驾驶辅助功能__](./vehicle_autonomous_core/README.md) - 基于CARLA 的多模块车辆辅助驾驶系统
 # 其他  <span id="other"></span>
 
 [__CARLA IMU 数据采集平台__](./carla_imu/carla_imu.md) — CARLA惯性测量单元数据采集与可视化驾驶平台开发汇报文档
